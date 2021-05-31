@@ -1,3 +1,44 @@
+{% extends "base.html" %}
+{% block headercss %}
+<link href="/static/css/index.bundle.css" rel="stylesheet">
+<link href="/static/css/detail.bundle.css" rel="stylesheet">
+<link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+{% endblock %}
+{% block content %}
+<div class="o-carousel" style="background:#1e327a;color: #fff;height: 230px;">
+  <ul class="banner-list">
+    <li class="banner_tip">
+      <p class="font30">一家年轻且充满活力的公司</p>
+      <p class="font20">在追求卓越品质与服务质量的过程中，也实现了自我从0到1的升级</p>
+      <p class="font20">处于高速发展阶段</p>
+      <p class="flow_img"><img src="static/img/img_aboutsp.png"></p>
+    </li>
+  </ul>
+</div>
+<div class="o-detail-wrap">
+  <div class="o-mod-inn">
+    <h1 class="o-title">招聘信息</h1>
+    <div class="o-detain-main">
+      <p>1、招聘人数3人:相关岗位地质部1人、矿山开发部1人、矿 山环境治理部1人</p>
+      <p>2、工薪待遇:基本工资3500元/月，野外补助110元/天，报告补助详谈。</p>
+      <p>3、岗位要求:公司目前处于高速发展阶段，加入公司即主力，也是公司培养的重点对象，2~3年后可独当一面，也将成为相关部门经理，年薪突破10万元，公司需要个人综合能力强，专业素质硬，稳定、踏实的专业人才，如果你是一个充满梦想且敢于为自己梦想奋斗的年轻人，河北冀勘是你开启梦想的路!</p>
+    </div>
+  </div>
+  <div class="o-mod-inn">
+    <h1 class="o-title">公司福利</h1>
+    <div class="o-detain-main">
+      <p>社会保险、出差报销、公司包住、带薪休假、用餐补助、交通补 助、节日礼品、年底奖金等。</p>
+    </div>
+  </div>
+
+  <div class="o-mod-inn">
+    <h1 class="o-title">联系方式</h1>
+    <div class="o-detain-main">
+      <p>联系人:马经理;电话 15076013511(即微信) 公司邮箱:hbjk111@126.com</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +49,6 @@
   <link href="/static/css/common.bundle.css" rel="stylesheet">
   <link href="/static/css/detail.bundle.css" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-
 </head>
 
 <body>

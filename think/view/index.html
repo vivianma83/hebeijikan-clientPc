@@ -1,16 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <link href="/static/css/platcommon.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>   </header>
-    <div class="p-content">
-      <div class="p-list">
-
-      </div>
+{% extends "base.html" %}
+{% block headercss %}
+<link href="/static/css/index.bundle.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div class="o-carousel" >
+  <!-- <div class="o-mod-inn" id="banners"> -->
+  <div class="o-carousel-inn" id="banners">
+    <ul class="banner-list">
+      <li class="current"><a href="" target="_blank"><img src="static/img/lunbo.png"></a>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="o-mod-wrap index-list-style1">
+  <div class="o-mod-inn">
+    <h2>我们的技术服务<i style="background-color:#B89820;"></i></h2>
+    <p class="o-mod-desc">按国家现行相关标准、规范、文件及行规进行及时、准确、客观、公正的技术服务</p>
+    <div class="o-mod-list">
+      <ul>
+        <li>
+          <a href="">
+            <span class="o-list-img"><img src="static/img/dz.png"></span>
+            <h3>地质勘察技术服务</h3>
+            <p class="o-list-desc">现场勘探、井下调研、现场地质监督</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="o-list-img"><img src="static/img/kc.png"></span>
+            <h3>矿产开采咨询服务</h3>
+            <p class="o-list-desc">矿山地质环境保护与土地复垦方案</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="o-list-img"><img src="static/img/zz.png"></span>
+            <h3>备案证办理服务</h3>
+            <p class="o-list-desc"></p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="o-list-img"><img src="static/img/hs.png"></span>
+            <h3>报告编写服务</h3>
+            <p class="o-list-desc">立项申请报告、可行性研究报告、安全与评价、初步设计、安全设施设计</p>
+          </a>
+        </li>
+      </ul>
     </div>
-  </body>
-</html>
+  </div>
+</div>
+
+{% endblock %}

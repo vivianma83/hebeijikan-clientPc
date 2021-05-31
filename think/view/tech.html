@@ -1,3 +1,50 @@
+{% extends "base.html" %}
+{% block headercss %}
+<link href="/static/css/detail.bundle.css" rel="stylesheet">
+<link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+{% endblock %}
+{% block content %}
+<div class="o-carousel" style="background:#1e327a;color: #fff;height: 230px;">
+  <ul class="banner-list">
+    <li class="banner_tip">
+      <p class="font30">一家年轻且充满活力的公司</p>
+      <p class="font20">在追求卓越品质与服务质量的过程中，也实现了自我从0到1的升级</p>
+      <p class="font20">处于高速发展阶段</p>
+      <p class="flow_img"><img src="static/img/img_aboutsp.png"></p>
+    </li>
+  </ul>
+</div>
+<div class="o-detail-wrap">
+  <div class="o-mod-inn">
+    <div class="o-detain-main">
+      <ul class="tab flex-container">
+          <li class="tab_item selected">地质勘察</li>
+          <li class="tab_item">矿产开采咨询</li>
+          <li class="tab_item">备案证办理服务</li>
+          <li class="tab_item">报告编写服务</li>
+
+      </ul>
+      <div class="tab_context">
+        <p style="display: block;">
+          地灾评估、地灾勘查、地灾设计；
+          土地复垦、占补平衡、土地整治、水土保持方案；
+        </p>
+        <p tabindex="2">
+          矿山综合治理设计、绿色矿山规划、绿色矿山实施方案、测绘、场地调查；。
+        </p>
+        <p>
+          备案证办理服务
+        </p>
+        <p>
+          储量核实报告、动态监测、储量年报、压覆矿产调查报告；
+          开发利用方案、矿山恢复治理方案；
+          土地复垦、占补平衡、土地整治、水土保持方案；
+        </p>
+    </div>
+    </div>
+  </div>        
+</div>
+{% endblock %}
 <!DOCTYPE html>
 <html lang="en">
 
