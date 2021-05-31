@@ -10,7 +10,8 @@
     background-position: center center; }
 
 .o-detail-wrap {
-  padding-top: 30px; }
+  padding-top: 30px;
+  min-height: calc(100vh - 520px); }
   .o-detail-wrap .o-title {
     font-size: 28px;
     text-align: center;

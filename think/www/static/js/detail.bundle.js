@@ -218,7 +218,7 @@ eval("\n\n__webpack_require__(/*! Common/base */ \"./src/assets/common/base.js\"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /Users/xiaojingma/Downloads/officialSite/front/src/entries/detail/index */\"./src/entries/detail/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/entries/detail/index?");
+eval("module.exports = __webpack_require__(/*! /Users/xiaojingma/hebeijikan-clientPc/front/src/entries/detail/index */\"./src/entries/detail/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/entries/detail/index?");
 
 /***/ })
 
