@@ -1,6 +1,6 @@
 // default config
 module.exports = {
   workers: 1,
-  port: 8765,
+  port: 8361,
   default_action: ''
 };
