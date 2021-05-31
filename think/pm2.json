@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "fe_mixed_info_flow",
+    "name": "hebeijikan-clientPc",
     "script": "production.js",
     "cwd": "/data8/wbox/hebeijikan/hebeijikan-clientPc/think",
     "exec_mode": "fork",
