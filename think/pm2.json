@@ -2,7 +2,7 @@
   "apps": [{
     "name": "fe_mixed_info_flow",
     "script": "production.js",
-    "cwd": "/home/liuyingying/fe_mixed_info_flow/think",
+    "cwd": "/data8/wbox/hebeijikan/hebeijikan-clientPc/think",
     "exec_mode": "fork",
     "max_memory_restart": "1G",
     "autorestart": true,
