@@ -1,5 +1,6 @@
 .o-detail-wrap{
   padding-top:30px;
+  min-height: calc(100vh - 520px);
   .o-title{
     font-size:28px;
     text-align:center;
